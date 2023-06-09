@@ -1,0 +1,14 @@
+.topCircle {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: -15%;
+  left: 41%;
+  height: 240px;
+  width: 300px;
+  border-width: 10px;
+  border-radius: 50%;
+  border-color: pink;
+  border-style: solid;
+  border-top: 0;
+}
