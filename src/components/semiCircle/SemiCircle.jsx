@@ -2,9 +2,11 @@ import React from 'react'
 import "./semiCircle.css"
 
 
-function SemiCircle() {
+function SemiCircle({circleType}) {
+
+
   return (
-    <div className='topCircle'></div>
+    <div className={`${circleType}`}></div>
   )
 }
 

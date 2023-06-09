@@ -28,6 +28,8 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  color: gray;
+  
 }
 
 .subscribeButton{
@@ -43,7 +45,7 @@
   width: 5rem;
   border-radius: 15px;
   border: none !important;
-  background: rgb(238, 115, 136);
+  background: rgb(197, 90, 108);
   color: white;
 }
 
