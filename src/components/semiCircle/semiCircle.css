@@ -1,9 +1,12 @@
 .topCircle {
-  position: absolute;
+  /* position: absolute; */
+  /* top: -15%;
+  left: 41%; */
+
+  margin: 0 auto ;
+  margin-top: -150px;
   width: 100%;
   z-index: 1;
-  top: -15%;
-  left: 41%;
   height: 240px;
   width: 300px;
   border-width: 10px;
@@ -17,13 +20,13 @@
   /* position: absolute; */
   width: 100%;
   z-index: 1;
-  top: -15%;
-  left: 41%;
+  margin-left: auto;
+  margin-top: -12px;
   height: 240px;
   width: 300px;
   border-width: 10px;
   border-radius: 50%;
   border-color: pink;
   border-style: solid;
-  border-bottom: 0;
+  /* border-bottom: 0; */
 }

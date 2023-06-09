@@ -4,6 +4,7 @@ import "./main.css"
 import Header from '../header/Header'
 import SemiCircle from '../semiCircle/SemiCircle'
 import Hero from '../hero/Hero'
+import Categories from '../categories/Categories'
 
 
 
@@ -16,6 +17,7 @@ function Main() {
       <SemiCircle circleType="topCircle"/>
       <Hero/>
       <SemiCircle circleType="bottomCircle"/>
+      <Categories/>
     </div>
   )
 }

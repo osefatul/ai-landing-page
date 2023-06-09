@@ -1,0 +1,22 @@
+.catContainer{
+height: 400px;
+margin-top: -170px;
+background-color: antiquewhite;
+padding: 50px 0;
+}
+
+
+.catTitles{
+  line-height: none !important;
+}
+
+.catTitle {
+  font-size: 45px;
+  line-height: none !important;
+
+}
+
+.catTitle span {
+  color:rgb(197, 90, 108);
+  line-height: none !important;
+}
