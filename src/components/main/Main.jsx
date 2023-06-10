@@ -1,15 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 import "./main.css"
 import Header from '../header/Header'
 import SemiCircle from '../semiCircle/SemiCircle'
 import Hero from '../hero/Hero'
 import Categories from '../categories/Categories'
-
+import Search from '../search/Search'
 
 
 function Main() {
-  const top = true;
 
   return (
     <div className='main'>
@@ -18,6 +17,7 @@ function Main() {
       <Hero/>
       <SemiCircle circleType="bottomCircle"/>
       <Categories/>
+      <Search/>
     </div>
   )
 }

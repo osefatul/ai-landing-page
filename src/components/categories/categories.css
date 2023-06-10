@@ -1,7 +1,7 @@
 .catContainer{
 height: 400px;
 margin-top: -170px;
-background-color: antiquewhite;
+background-color: white;
 padding: 50px 0;
 }
 
@@ -19,4 +19,32 @@ padding: 50px 0;
 .catTitle span {
   color:rgb(197, 90, 108);
   line-height: none !important;
+}
+
+
+.sideProfile{
+  display: flex;
+  flex: 4;
+}
+
+.sidebar{
+  line-height: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  /* padding-top: 5%; */
+  /* background: red; */
+  padding-left: 5rem;
+}
+
+
+.profiles {
+  flex: 3;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 30px;
 }
