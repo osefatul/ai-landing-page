@@ -1,6 +1,7 @@
 import React from 'react'
 import "./search.css"
 import {BiSearchAlt} from "react-icons/bi"
+import Category from '../category/Category'
 
 
 function Search() {
@@ -41,7 +42,22 @@ function Search() {
       </div>
 
       <div className='componentsSearchContainer'>
-        components
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
       </div>
     </div>
   )
