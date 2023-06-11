@@ -30,3 +30,19 @@
   border-style: solid;
   /* border-bottom: 0; */
 }
+
+
+.footerCircle {
+    position: absolute;
+    width: 100%;
+    z-index: 0.51;
+    top: -10rem;
+    right: -10rem;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-radius: 50%;
+    border-color: rgb(133, 201, 17);
+    border-style: solid;
+    /* border-bottom: 0; */
+}

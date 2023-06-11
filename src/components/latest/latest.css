@@ -1,0 +1,21 @@
+.latestWrapper{
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+  z-index:  10;
+  background-color: whitesmoke;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.topContainer h1 {
+  font-size: 36px;
+}
+
+.blogWrapper{
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  z-index: 10;
+  position: relative;
+}

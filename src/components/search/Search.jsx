@@ -13,9 +13,7 @@ function Search() {
           <span> AI </span>
           products
         </h1>
-
         <div className='searchBar'>
-          
           <div className='leftSearch'>
             <BiSearchAlt
             size="24px"/>
@@ -24,7 +22,6 @@ function Search() {
             placeholder='Search for AI products...' 
             />
           </div>
-
           <div className='rightSearch'>
             <select name="" id="">
               <option value="Categories">Category</option>
@@ -37,10 +34,8 @@ function Search() {
               <BiSearchAlt size="24px" color='white'/>
             </div>
           </div>
-          
         </div>
       </div>
-
       <div className='componentsSearchContainer'>
         <Category />
         <Category />

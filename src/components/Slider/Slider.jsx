@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import "./slider.css"
-import Carousel from 'react-multi-carousel';
-import "react-multi-carousel/lib/styles.css";
+
 import {AiOutlineLeft} from "react-icons/ai"
 import {AiOutlineRight} from "react-icons/ai"
 import {AiFillDollarCircle} from "react-icons/ai"

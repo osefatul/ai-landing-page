@@ -20,10 +20,10 @@ function Category() {
       </div>
       
       <div className='iconsContainer'>
-        <MdOutlineRocketLaunch size="30px" color='#EEBC1D' />
+        <MdOutlineRocketLaunch size="28px" color='#EEBC1D' />
         
         <div className='starContainer'>
-        <BsStars size="30px" color='#AA336A'/>
+        <BsStars size="28px" color='#AA336A'/>
           <div className='badge'> 180 </div>
         </div>
       </div>

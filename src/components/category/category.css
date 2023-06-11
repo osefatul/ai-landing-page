@@ -1,5 +1,6 @@
 .categoryContainer{
-  width: 310px;
+  width: 280px;
+  max-width: 280px;
   height: 130px;
   border: 1px solid rgb(230, 227, 227);
   border-radius: 10px;
@@ -36,7 +37,6 @@
   padding-bottom: 5px;
   line-height: 0;
   border-radius: 5px;
-  margin-bottom: 3px;
 }
 
 .textContainer .titleText p{
@@ -44,10 +44,17 @@
   padding-bottom: 5px;
 }
 
+.textContainer .titleText span{
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
 .textContainer .copywriting{
   background: rgb(218, 230, 241);
   color: gray;
   padding: 0 8px 5px;
+  border-radius: 2px;
+  font-size: 12px;
 }
 
 .iconsContainer{
@@ -64,6 +71,7 @@
 .starContainer .badge {
   position: absolute;
   top: 0;
-  left: -30px;
+  left: -28px;
   color: rgb(85, 150, 203);
+  font-size: 13px;
 }

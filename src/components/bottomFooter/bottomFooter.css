@@ -1,0 +1,79 @@
+.bottomFooterWrapper{
+  width: 78%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+  padding-right: 2rem;
+}
+
+.bottomFooterWrapper .nav{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.nav .navLogo {
+  flex: 1;
+  display: flex;
+  font-weight: bold;
+}
+
+.nav .navContact{
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+
+
+.footerHR{
+  width: 90%;
+  margin-right: 10rem;
+  border: 0.5px solid rgba(128, 128, 128, 0.25);
+}
+
+
+
+.langContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  width: 90%;
+}
+
+.selectContainer{
+  background-color: rgb(225, 224, 224);
+  border-radius: 5px;
+}
+
+.selectContainer select {
+  background-color: rgb(225, 224, 224);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none !important;
+  outline: none !important;
+}
+
+.langContainer .copyright{
+  color: rgb(156, 152, 152);
+  font-size: 12px;
+}
+
+.langContainer .contactIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.halfDotsContainer{
+  position: absolute;
+  top: 0;
+  right: 0
+}
