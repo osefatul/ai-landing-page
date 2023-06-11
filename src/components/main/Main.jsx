@@ -6,6 +6,7 @@ import SemiCircle from '../semiCircle/SemiCircle'
 import Hero from '../hero/Hero'
 import Categories from '../categories/Categories'
 import Search from '../search/Search'
+import Providers from '../providers/Providers'
 
 
 function Main() {
@@ -18,6 +19,7 @@ function Main() {
       <SemiCircle circleType="bottomCircle"/>
       <Categories/>
       <Search/>
+      <Providers/>
     </div>
   )
 }

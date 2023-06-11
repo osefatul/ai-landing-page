@@ -1,6 +1,6 @@
 .heroContainer{
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: white;
   margin-top: -2%;
   z-index: 10;
@@ -12,11 +12,11 @@
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
+  padding: 50px 0;
 
 }
 
 .heroLeftTop{
-  padding-top: 10px;
   line-height: 0;
 }
 
