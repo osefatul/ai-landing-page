@@ -36,7 +36,10 @@
   padding-top: 10px;
 }
 
+.heroLeftBottom {
+  padding-bottom: 50px;
 
+}
 .heroLeftBottom p {
   color: gray;
   font-size: 14px;
@@ -62,13 +65,41 @@
 
 .heroRightContainer .dataLabel{
   width: 300px;
-  height: 150px;
-  background: #90eae4;
+  height: 160px;
+  background: #a2d3d061;
   border-radius: 15px;
-
   position: absolute;
   top: -2rem;
   right: 4.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.dataLabel .leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.dataLabel .leftSide .Rev {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.dataLabel .leftSide .percentage {
+  display: flex;
+  align-items: center;
+  
+}
+
+.dataLabel .leftSide .RevPer {
+  color: red;
+}
+
+.dataLabel .barChart{
+  width: 60%;
 }
 
 .heroRightContainer .rightContainerPic{

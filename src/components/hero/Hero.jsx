@@ -2,8 +2,10 @@ import React from 'react'
 import "./hero.css"
 import {AiOutlineArrowUp} from "react-icons/ai"
 import ProgressMeter from '../progressMeter/ProgressMeter'
+import BarChart from '../barChart/BarChart'
 
 function Hero() {
+  const data = [100, 200, 150, 300, 250];
   return (
     <div className='heroContainer'>
       <div className='heroLeftContainer'>
@@ -30,14 +32,15 @@ function Hero() {
           <div className='leftSide'>
             <span>Data labe</span>
             <span className='Rev'>$230</span>
-            <div className=''>
-              <AiOutlineArrowUp color='red'/>
-              <span></span>
+            <div className='percentage'>
+              <AiOutlineArrowUp 
+              size="20px" color='red'/>
+              <span className='RevPer'>5%</span>
             </div>
           </div>
 
-          <div className='line bar'>
-            line bar
+          <div className='barChart'>
+            <BarChart />
           </div>
         </div>
 
