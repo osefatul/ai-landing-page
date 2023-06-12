@@ -1,0 +1,68 @@
+.progressWrapper{
+  width: 280px;
+  height: 300px;
+  background: #e1cbd7b1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 4;
+  position: relative;
+}
+
+.topDiv {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.topDiv p {
+font-size: 16px;
+font-weight: bold;
+}
+
+.topDiv .goDots {
+  display: flex;
+  font-size: 12px;
+}
+
+.progressBar{
+  flex: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressPer{
+  flex: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.progressPer .completed, 
+.progressPer .remaining  {
+  display: flex;
+  flex-direction: column ;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressPer .perNumber{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.progressMiddleText{
+  position: absolute;
+  top: 10rem;
+  color: gray;
+}

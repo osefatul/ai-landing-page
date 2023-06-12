@@ -5,6 +5,8 @@
   margin-top: -2%;
   z-index: 10;
   position: relative;
+  display: flex;
+
 }
 
 .heroLeftContainer{
@@ -13,7 +15,7 @@
   height: 100%;
   justify-content: space-between;
   padding: 50px 0;
-
+  width: 50%;
 }
 
 .heroLeftTop{
@@ -48,4 +50,63 @@
   border: none !important;
   border-radius: 20px;
   cursor: pointer;
+}
+
+
+
+
+.heroRightContainer{
+  position: relative;
+  width: 50%;
+}
+
+.heroRightContainer .dataLabel{
+  width: 300px;
+  height: 150px;
+  background: #90eae4;
+  border-radius: 15px;
+
+  position: absolute;
+  top: -2rem;
+  right: 4.5rem;
+}
+
+.heroRightContainer .rightContainerPic{
+  position: absolute;
+  top: -2rem;
+  right: 24rem;
+  max-width: 180px;
+  width: 140px;
+  height: 160px;
+}
+
+.heroRightContainer .rightContainerPic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+
+}
+
+
+.heroRightContainer .rightContainerPic2{
+  width: 200px;
+  height: 220px;
+
+  position: absolute;
+  top: 8rem;
+  right: 4.5rem;
+}
+
+.heroRightContainer .rightContainerPic2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.heroRightContainer .progressMeter{
+  position: absolute;
+  top: 9rem;
+  right: 18rem;
 }
