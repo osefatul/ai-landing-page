@@ -31,7 +31,6 @@ function BarChart() {
         data:[15,20,25,40],
         backgroundColor:'red'
       },
-  
     ],
   };
 
