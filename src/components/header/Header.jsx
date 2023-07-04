@@ -1,5 +1,7 @@
 import React from 'react'
 import "./header.css"
+import {NavLink}  from "react-router-dom"
+
 function Header() {
   return (
     <div className='header'>
@@ -10,7 +12,9 @@ function Header() {
 
       <div className='contents'>
         <p>Home</p>
-        <p>Interactive AI</p>
+        <NavLink style={{textDecoration: "none", listStyle: "none"}} to="/categories">
+          <p>Interactive AI</p>
+        </NavLink>
         <p>Software</p>
         <p>Services</p>
         <p>Learning</p>
